@@ -1,0 +1,28 @@
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #070707;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    perspective: 600px;
+}
+
+.quadrado {
+    width: 300px;
+    height: 300px;
+
+    background: linear-gradient(225deg, #9c760b 0% , rgba(83, 139, 240, 0) 100%);
+    transform: skewX(30deg);
+}
